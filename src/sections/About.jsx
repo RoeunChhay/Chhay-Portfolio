@@ -96,10 +96,10 @@ const About = () => {
                 <div key={index}
                   className='md:col-span-4 col-span-6 row-span-2'>
                   <div className='bg-black-300 rounded-2xl p-7 w-full h-full group cursor-pointer'>
-                    <div className='flex justify-between items-center h-full' >
-                      <div className='md:flex md:gap-3 gap-2'>
+                    <div className='md:flex md:justify-between justify-center items-center h-full' >
+                      <div className='md:flex md:gap-3 gap-2 items-center'>
                         <img src={item.icon} alt={item.index} className='md:mx-0 mx-8' />
-                        <p className='gradient-title md:text-3xl text-xl md:m-0 ms-5 font-medium md:mx-0 mx-1'>{item.name}</p>
+                        <p className='gradient-title md:text-3xl text-sm md:m-0 ms-5 font-medium md:mx-0 -mx-3'>{item.name}</p>
                       </div>
                       <div className='xl:block group-hover:translate-x-2 group-hover:-translate-y-4 transition-transform'>
                         <a href={item.href}><img src="/images/arrowupright.svg" alt="" /></a>

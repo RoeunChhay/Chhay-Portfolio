@@ -7,6 +7,7 @@ import Contact from './sections/Contact'
 import Navbar from './sections/Navbar'
 import SideBar from './components/SideBar'
 import Footer from './sections/Footer'
+import Mywork from './sections/Mywork'
 
 
 
@@ -20,6 +21,7 @@ export default function App() {
       <About />
       <TechStack />
       <Projects />
+      <Mywork />
       <Contact />
       <Footer />
 
