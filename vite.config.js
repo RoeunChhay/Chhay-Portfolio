@@ -9,7 +9,7 @@ export default defineConfig({
     tailwindcss(),
   ],
  
-  base: process.env || "/Chhay-Portfolio",
+  base: process.env || "/Chhay-Portfolio" ,
   
   resolve: {
     alias: {
