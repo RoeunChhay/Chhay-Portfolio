@@ -12,7 +12,7 @@ export default defineConfig({
   base: process.env.VITE_BASE_PATH || "/Chhay-Portfolio" ,
   resolve: {
     alias: {
-      '/models': path.resolve(__dirname, 'src/models'),
+      '/public/models': path.resolve(__dirname, '/public/models'),
     },
   },
   
