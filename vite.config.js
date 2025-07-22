@@ -13,7 +13,7 @@ export default defineConfig({
   
   resolve: {
     alias: {
-      '/models': path.resolve(__dirname, 'src/models'),
+    //  '/models': path.resolve(__dirname, 'src/models'),
     },
   },
   
