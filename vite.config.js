@@ -9,7 +9,7 @@ export default defineConfig({
     tailwindcss(),
   ],
  
-
+  base: process.env.VITE_BASE_PATH || "/Chhay-Portfolio" ,
   resolve: {
     alias: {
       '/models': path.resolve(__dirname, 'src/models'),
